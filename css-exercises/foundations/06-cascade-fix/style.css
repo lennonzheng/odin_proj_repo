@@ -1,40 +1,34 @@
-* {
-  font-family: Verdana, sans-serif;
-}
-
 .para,
 .small-para {
   color: hsl(0, 100%, 50%);
 }
 
-.para.small-para {
-  font-size: 12px;
+.small-para {
+  font-size: 14px;
 }
 
 .para {
   font-size: 22px;
 }
 
-.button.confirm {
+.confirm {
   background: green;
   color: white;
-  font-size: 20px;
   font-weight: bold;
 } 
 
-.button.cancel {
-  background-color: #ffc0cb;
-  color: black;
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
+}
+
+.child {
+  color: red;
+  font-size: 14px;
 }
 
 div.text {
   color: green;
-  font-size: 28px;
-}
-
-.text.child {
-  color: red;
-  font-size: 14px;
-  
+  font-size: 22px;
 }
