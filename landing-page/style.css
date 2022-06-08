@@ -1,0 +1,67 @@
+* {
+    border: 0.2px solid red;
+}
+
+body {
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: #1F2937;
+    height: 20px;
+    padding: 20px 100px;
+    gap: 10px;
+}
+
+.logo {
+    flex: 1 1 auto;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.nav-items {
+    /* flex: 1 1 auto; */
+    color: white;
+
+}
+
+
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: #1F2937;
+    padding: 100px 100px;
+    color: white;
+}
+
+.sign-up {
+    /* flex: 1 1 auto; */
+    width: auto;
+}
+
+.intro-img {
+    /* margin-left: 20px; */
+    padding: 90px 200px;
+    background: #6D747D;
+    
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
